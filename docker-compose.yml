@@ -1,0 +1,8 @@
+version: "3"
+services:
+  app:
+    image: op-app
+    container_name: top-app
+    restart: always
+    ports:
+      - 3000:3000
